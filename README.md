@@ -13,6 +13,10 @@ Berufsübergreifende Projekte
 
 "C" zum zoomen.
 
+"Esc" zum pausieren.
+
+"Shift + Esc" zum verlassen.
+
 ## Debug Steuerung
 "R" zum Szehne neu laden.
 
