@@ -6,6 +6,7 @@ Berufsübergreifende Projekte
 
 ## Download
 https://drive.google.com/drive/folders/1e4s5fci1XtSpqDLN_vfkZPdgL16kd2Eg?usp=sharing
+https://github.com/4bitFox/Besser/releases
 
 ## Steuerung
 "W A S D" zum laufen. Alternativ "I J K L" oder Pfeiltasten.
