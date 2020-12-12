@@ -1,0 +1,312 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Scenes/Main/Environment.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Main/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Main/Main.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Main/Map.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/Audio/Music/Fin/fin_2.ogg" type="AudioStream" id=5]
+[ext_resource path="res://Assets/Textures/Animal/Shark_fin1.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/Main/LookAtPlayer.gd" type="Script" id=7]
+[ext_resource path="res://Scenes/Main/Shark.gd" type="Script" id=8]
+[ext_resource path="res://Assets/Fonts/Small1.tres" type="DynamicFont" id=14]
+[ext_resource path="res://Scenes/Main/Debug-Menu.gd" type="Script" id=15]
+
+[sub_resource type="CylinderShape" id=1]
+
+[node name="Main" type="Spatial"]
+pause_mode = 1
+script = ExtResource( 3 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6922, 82, 750 )
+
+[node name="Map" parent="." instance=ExtResource( 4 )]
+process_priority = 15
+
+[node name="Environment" parent="." instance=ExtResource( 1 )]
+process_priority = 5
+
+[node name="Debug-Menu" type="CanvasLayer" parent="."]
+pause_mode = 2
+process_priority = 5
+layer = -4
+script = ExtResource( 15 )
+
+[node name="Coordinates" type="Node" parent="Debug-Menu"]
+
+[node name="Description" type="Label" parent="Debug-Menu/Coordinates"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 108.0
+margin_bottom = 36.0
+custom_fonts/font = ExtResource( 14 )
+text = "Coordinates:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="X" type="Label" parent="Debug-Menu/Coordinates"]
+margin_left = 10.0
+margin_top = 30.0
+margin_right = 31.0
+margin_bottom = 56.0
+custom_fonts/font = ExtResource( 14 )
+text = "X:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Coordinates/X"]
+margin_left = 30.0
+margin_right = 70.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Y" type="Label" parent="Debug-Menu/Coordinates"]
+margin_left = 10.0
+margin_top = 50.0
+margin_right = 31.0
+margin_bottom = 76.0
+custom_fonts/font = ExtResource( 14 )
+text = "Y:"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Coordinates/Y"]
+margin_left = 30.0
+margin_right = 70.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Z" type="Label" parent="Debug-Menu/Coordinates"]
+margin_left = 10.0
+margin_top = 70.0
+margin_right = 31.0
+margin_bottom = 96.0
+custom_fonts/font = ExtResource( 14 )
+text = "Z:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Coordinates/Z"]
+margin_left = 30.0
+margin_right = 70.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera" type="Node" parent="Debug-Menu"]
+
+[node name="Description" type="Label" parent="Debug-Menu/Camera"]
+margin_left = 10.0
+margin_top = 100.0
+margin_right = 108.0
+margin_bottom = 126.0
+custom_fonts/font = ExtResource( 14 )
+text = "Camera:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Facing" type="Label" parent="Debug-Menu/Camera"]
+margin_left = 10.0
+margin_top = 120.0
+margin_right = 31.0
+margin_bottom = 146.0
+custom_fonts/font = ExtResource( 14 )
+text = "Facing:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Camera/Facing"]
+margin_left = 70.0
+margin_right = 110.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Yaw" type="Label" parent="Debug-Menu/Camera"]
+margin_left = 10.0
+margin_top = 140.0
+margin_right = 72.0
+margin_bottom = 166.0
+custom_fonts/font = ExtResource( 14 )
+text = "Yaw:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Camera/Yaw"]
+margin_left = 60.0
+margin_right = 100.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pitch" type="Label" parent="Debug-Menu/Camera"]
+margin_left = 10.0
+margin_top = 160.0
+margin_right = 72.0
+margin_bottom = 186.0
+custom_fonts/font = ExtResource( 14 )
+text = "Pitch:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Camera/Pitch"]
+margin_left = 60.0
+margin_right = 100.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Performance" type="Node" parent="Debug-Menu"]
+
+[node name="Description" type="Label" parent="Debug-Menu/Performance"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = -110.0
+margin_right = 119.0
+margin_bottom = -84.0
+custom_fonts/font = ExtResource( 14 )
+text = "Performance:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FPS" type="Label" parent="Debug-Menu/Performance"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = -90.0
+margin_right = 72.0
+margin_bottom = -64.0
+custom_fonts/font = ExtResource( 14 )
+text = "FPS:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Performance/FPS"]
+margin_left = 100.0
+margin_right = 140.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Frametime" type="Label" parent="Debug-Menu/Performance"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = -70.0
+margin_right = 104.0
+margin_bottom = -44.0
+custom_fonts/font = ExtResource( 14 )
+text = "Frametime:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Performance/Frametime"]
+margin_left = 100.0
+margin_right = 140.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Objects" type="Label" parent="Debug-Menu/Performance"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = -50.0
+margin_right = 72.0
+margin_bottom = -24.0
+custom_fonts/font = ExtResource( 14 )
+text = "Objects:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Performance/Objects"]
+margin_left = 100.0
+margin_right = 140.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Verticies" type="Label" parent="Debug-Menu/Performance"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = -30.0
+margin_right = 88.0
+margin_bottom = -4.0
+custom_fonts/font = ExtResource( 14 )
+text = "Verticies:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Value" type="Label" parent="Debug-Menu/Performance/Verticies"]
+margin_left = 100.0
+margin_right = 140.0
+margin_bottom = 26.0
+custom_fonts/font = ExtResource( 14 )
+text = "???"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Fin - T2" type="AudioStreamPlayer" parent="."]
+process_priority = 20
+stream = ExtResource( 5 )
+volume_db = -20.0
+
+[node name="Shark" type="Spatial" parent="."]
+script = ExtResource( 8 )
+
+[node name="Sprite" type="Sprite3D" parent="Shark"]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, -7535.94, 1.5, 669.4 )
+texture = ExtResource( 6 )
+script = ExtResource( 7 )
+
+[node name="RigidBody" type="RigidBody" parent="Shark/Sprite"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Shark/Sprite/RigidBody"]
+transform = Transform( 5, 0, 0, 0, 0.2, 0, 0, 0, 5, 0, -1, 0 )
+shape = SubResource( 1 )
