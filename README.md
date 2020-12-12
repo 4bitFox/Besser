@@ -9,6 +9,11 @@ https://drive.google.com/drive/folders/1e4s5fci1XtSpqDLN_vfkZPdgL16kd2Eg?usp=sha
 
 https://github.com/4bitFox/Besser/releases
 
+## Source Code
+https://github.com/4bitFox/Besser/tree/main/Source
+
+Godot v3.2.3 Stable Official
+
 ## Steuerung
 "W A S D" zum laufen. Alternativ "I J K L" oder Pfeiltasten.
 
