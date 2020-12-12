@@ -21,6 +21,8 @@ https://drive.google.com/drive/folders/1e4s5fci1XtSpqDLN_vfkZPdgL16kd2Eg?usp=sha
 "Shift + Esc" zum verlassen.
 
 ## Debug Steuerung
+"F3" für Debug-Menu
+
 "R" zum Szehne neu laden.
 
 "LCtrl" zum ultraschnell rennen.
