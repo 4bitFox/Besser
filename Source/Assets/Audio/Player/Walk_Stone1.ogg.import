@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Walk_Stone1.ogg-35df793b488dd888489c96009e8d2586.oggstr"
+
+[deps]
+
+source_file="res://Assets/Audio/Player/Walk_Stone1.ogg"
+dest_files=[ "res://.import/Walk_Stone1.ogg-35df793b488dd888489c96009e8d2586.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
