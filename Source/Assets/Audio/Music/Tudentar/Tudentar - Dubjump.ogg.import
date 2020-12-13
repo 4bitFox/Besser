@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Tudentar - Dubjump.ogg-ff2e77f8223dc1a561e051b1c2a8f640.oggstr"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/Tudentar/Tudentar - Dubjump.ogg"
+dest_files=[ "res://.import/Tudentar - Dubjump.ogg-ff2e77f8223dc1a561e051b1c2a8f640.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
