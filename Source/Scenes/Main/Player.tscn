@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Scenes/Main/Player.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Textures/HUD/reticle.png" type="Texture" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://Assets/Audio/Player/Drown1.ogg" type="AudioStream" id=12]
 [ext_resource path="res://Assets/Audio/Player/Run_Sand1.ogg" type="AudioStream" id=13]
 [ext_resource path="res://Assets/Audio/Player/Run_Stone1.ogg" type="AudioStream" id=14]
+[ext_resource path="res://Assets/Fonts/Small1.tres" type="DynamicFont" id=15]
 
 [sub_resource type="CapsuleShape" id=1]
 height = 2.0
@@ -154,6 +155,16 @@ custom_styles/fg = SubResource( 5 )
 custom_styles/bg = SubResource( 6 )
 value = 100.0
 percent_visible = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="HUD/Stamina"]
+margin_top = -24.0
+margin_right = 72.0
+margin_bottom = 2.0
+custom_fonts/font = ExtResource( 15 )
+text = "Stamina:"
 __meta__ = {
 "_edit_use_anchors_": false
 }

@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scenes/Main/Environment.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Main/Player.tscn" type="PackedScene" id=2]
@@ -8,6 +8,10 @@
 [ext_resource path="res://Assets/Textures/Animal/Shark_fin1.png" type="Texture" id=6]
 [ext_resource path="res://Scenes/Main/LookAtPlayer.gd" type="Script" id=7]
 [ext_resource path="res://Scenes/Main/Shark.gd" type="Script" id=8]
+[ext_resource path="res://Assets/Audio/Music/Tudentar/Tudentar - Dubjump.ogg" type="AudioStream" id=9]
+[ext_resource path="res://Assets/Textures/Buildings/Hut1.png" type="Texture" id=10]
+[ext_resource path="res://Assets/Textures/Buildings/House_Straw1.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Textures/Buildings/House_Regular1.png" type="Texture" id=12]
 [ext_resource path="res://Assets/Fonts/Small1.tres" type="DynamicFont" id=14]
 [ext_resource path="res://Scenes/Main/Debug-Menu.gd" type="Script" id=15]
 
@@ -292,11 +296,6 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Fin - T2" type="AudioStreamPlayer" parent="."]
-process_priority = 20
-stream = ExtResource( 5 )
-volume_db = -20.0
-
 [node name="Shark" type="Spatial" parent="."]
 script = ExtResource( 8 )
 
@@ -310,3 +309,164 @@ script = ExtResource( 7 )
 [node name="CollisionShape" type="CollisionShape" parent="Shark/Sprite/RigidBody"]
 transform = Transform( 5, 0, 0, 0, 0.2, 0, 0, 0, 5, 0, -1, 0 )
 shape = SubResource( 1 )
+
+[node name="Hut" type="Spatial" parent="."]
+
+[node name="Sprite" type="Sprite3D" parent="Hut"]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, -6709.51, 103.439, 669.4 )
+texture = ExtResource( 10 )
+script = ExtResource( 7 )
+
+[node name="House_Straw" type="Spatial" parent="."]
+
+[node name="Sprite" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 1858.58, 494.369, -5575.05 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite2" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 1858.58, 516.737, -5426.65 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite3" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2008.75, 532.945, -5506.7 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite4" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 1920.24, 500.135, -5625.95 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite5" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2074.4, 500.135, -5672.31 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite6" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2074.4, 571.198, -5290.79 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite7" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2074.4, 549.801, -5435.7 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite8" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2074.4, 528.213, -5562.95 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite9" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 1997.73, 512.722, -5613.64 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite10" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 1957.31, 545.289, -5379.11 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite11" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 1957.31, 570.923, -5209.3 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite12" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2232.01, 541.754, -5422.17 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="Sprite13" type="Sprite3D" parent="House_Straw"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2232.01, 512.055, -5576.72 )
+texture = ExtResource( 11 )
+script = ExtResource( 7 )
+
+[node name="House_Regular" type="Spatial" parent="."]
+
+[node name="Sprite" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2620.62, 412.78, 5608.13 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite2" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2620.62, 358.369, 5428.5 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite3" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2431.2, 359.189, 5528.99 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite4" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2774, 417.669, 5528.99 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite5" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2487.23, 426.453, 5692.51 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite6" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2704.1, 478.472, 5692.51 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite7" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2704.1, 348.949, 5358.73 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite8" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2862.07, 387.246, 5390.68 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite9" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2930.26, 443.713, 5507.82 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite10" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2930.26, 533.759, 5693.82 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite11" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2585.53, 512.707, 5800.17 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite12" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2798.46, 567.049, 5800.17 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite13" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2798.46, 317.504, 5233.92 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite14" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2599.35, 317.504, 5301.55 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Sprite15" type="Sprite3D" parent="House_Regular"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 2932.79, 362.43, 5301.55 )
+texture = ExtResource( 12 )
+script = ExtResource( 7 )
+
+[node name="Fin - T2" type="AudioStreamPlayer" parent="."]
+process_priority = 20
+stream = ExtResource( 5 )
+volume_db = -20.0
+
+[node name="Tudentar - Dubjump" type="AudioStreamPlayer" parent="."]
+process_priority = 20
+stream = ExtResource( 9 )
+volume_db = -20.0

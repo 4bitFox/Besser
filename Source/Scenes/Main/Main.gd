@@ -18,6 +18,8 @@ func _process(_delta):
 	else:
 		player_sound_stop()
 	
+	background_music()
+	
 
 func player_sound():
 	if $Player.translation.y >= WATER_HEIGHT and $Player.translation.y < SAND_HEIGHT:
@@ -67,3 +69,15 @@ func player_sound_stop():
 	$Player.sound(false, "Run_Sand")
 	$Player.sound(false, "Run_Grass")
 	$Player.sound(false, "Run_Stone")
+
+
+func background_music():
+	var sun_rotation = $Environment.environment.background_sky.sun_latitude
+	if sun_rotation >= 0:
+		if $"Fin - T2".playing == false:
+			$"Fin - T2".playing = true
+			$"Tudentar - Dubjump".playing = false
+	else:
+		if $"Tudentar - Dubjump".playing == false:
+			$"Fin - T2".playing = false
+			$"Tudentar - Dubjump".playing = true
