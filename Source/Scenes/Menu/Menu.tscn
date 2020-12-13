@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Assets/Fonts/Small1.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Assets/Fonts/Title1.tres" type="DynamicFont" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://Scenes/Menu/ButtonIndicator_not-implemented.gd" type="Script" id=9]
 [ext_resource path="res://Scenes/Menu/Button_Credits.gd" type="Script" id=10]
 [ext_resource path="res://Scenes/Menu/Button_Settings.gd" type="Script" id=11]
+[ext_resource path="res://Assets/Textures/HUD/Main.png" type="Texture" id=12]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.529412, 0.529412, 0.529412, 0.529412 )
@@ -50,6 +51,22 @@ script = ExtResource( 7 )
 [node name="UI" type="Control" parent="."]
 margin_right = 1024.0
 margin_bottom = 600.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="UI"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -549.0
+margin_top = -342.0
+margin_right = 1371.0
+margin_bottom = 999.0
+texture = ExtResource( 12 )
+expand = true
+stretch_mode = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
