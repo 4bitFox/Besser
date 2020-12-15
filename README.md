@@ -1,6 +1,6 @@
 # Besser
 
-## Links
+## Links:
 ### *[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
 
 ### [Herunterladen](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
