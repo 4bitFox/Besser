@@ -4,8 +4,10 @@ MehrBesser
 Berufsübergreifende Projekte
 (2020 3. LJ / 1. Sem.)
 
-## Download
+## Herunterladen
 [Zu den Downloads](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
+
+*[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
 
 ## Story
 https://github.com/4bitFox/Besser/blob/main/Documents/Story.md
@@ -13,7 +15,7 @@ https://github.com/4bitFox/Besser/blob/main/Documents/Story.md
 ## Source Code
 https://github.com/4bitFox/Besser/tree/main/Source
 
-Godot v3.2.3 Stable Official
+*Godot v3.2.3 Stable Official*
 
 ## Steuerung
 "W A S D" zum laufen. Alternativ "I J K L" oder Pfeiltasten.
@@ -28,7 +30,7 @@ Godot v3.2.3 Stable Official
 
 "Shift + Esc" zum verlassen.
 
-## Debug Steuerung
+### Debug Steuerung
 "F3" für Debug-Menu
 
 "R" zum Szehne neu laden.
@@ -42,6 +44,3 @@ Godot v3.2.3 Stable Official
 "Q" zum Tag-/Nachtzyklus verlangsahmen.
 
 "F" für Vulkan-Erruption.
-
-## Lizenz
-[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)
