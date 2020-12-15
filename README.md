@@ -12,7 +12,7 @@ https://github.com/4bitFox/Besser/releases
 Als ZIP herunterladen und extrahieren.
 
 ## Story
-https://github.com/4bitFox/Besser/blob/main/Documents/Story.txt
+https://github.com/4bitFox/Besser/blob/main/Documents/Story.md
 
 ## Source Code
 https://github.com/4bitFox/Besser/tree/main/Source
