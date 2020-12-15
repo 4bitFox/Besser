@@ -4,12 +4,12 @@ MehrBesser
 Berufsübergreifende Projekte
 (2020 3. LJ / 1. Sem.)
 
-## Herunterladen
-### [Zu den Downloads](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
-
+## Links
 ### *[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
 
-### [Story](https://github.com/4bitFox/Besser/blob/main/Documents/Story.md)
+### [Herunterladen](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
+
+### [Handlung](https://github.com/4bitFox/Besser/blob/main/Documents/Story.md)
 
 ### [Source Code](https://github.com/4bitFox/Besser/tree/main/Source)
 
