@@ -3,9 +3,9 @@
 ## Link zum Download
 Wählen Sie von einem der unten stehenden Links:
 
-*    [GitHub](https://github.com/4bitFox/Besser/releases) (empfohlen)
+*    #### [GitHub](https://github.com/4bitFox/Besser/releases) (empfohlen)
 
-*    [GDrive](https://drive.google.com/drive/folders/1e4s5fci1XtSpqDLN_vfkZPdgL16kd2Eg?usp=sharing)
+*    #### [GDrive](https://drive.google.com/drive/folders/1e4s5fci1XtSpqDLN_vfkZPdgL16kd2Eg?usp=sharing)
 
 ## Anweisungen
 Als ZIP herunterladen und in einen Verzeichnis extrahieren. (*Sie müssen die "Source Code" Downloads nicht herunterladen.*)
