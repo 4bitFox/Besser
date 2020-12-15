@@ -1,15 +1,15 @@
 # Besser
 
 ## Links:
-### *[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
+*    ### *[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
 
-### [Herunterladen](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
+*    ### [Herunterladen](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
 
-### [Steuerung](https://github.com/4bitFox/Besser/blob/main/Documents/Controls.md)
+*    ### [Steuerung](https://github.com/4bitFox/Besser/blob/main/Documents/Controls.md)
 
-### [Handlung](https://github.com/4bitFox/Besser/blob/main/Documents/Story.md)
+*    ### [Handlung](https://github.com/4bitFox/Besser/blob/main/Documents/Story.md)
 
-### [Source Code](https://github.com/4bitFox/Besser/tree/main/Source)
+*    ### [Source Code](https://github.com/4bitFox/Besser/tree/main/Source)
 
 ## Anderes
 #### Erstellt mit *Godot v3.2.3 Stable Official*
