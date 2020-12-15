@@ -5,15 +5,13 @@ Berufsübergreifende Projekte
 (2020 3. LJ / 1. Sem.)
 
 ## Herunterladen
-[Zu den Downloads](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
+### [Zu den Downloads](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
 
-*[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
+### *[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
 
 ### [Story](https://github.com/4bitFox/Besser/blob/main/Documents/Story.md)
 
 ### [Source Code](https://github.com/4bitFox/Besser/tree/main/Source)
-
-*Godot v3.2.3 Stable Official*
 
 ## Steuerung
 "W A S D" zum laufen. Alternativ "I J K L" oder Pfeiltasten.
@@ -42,3 +40,5 @@ Berufsübergreifende Projekte
 "Q" zum Tag-/Nachtzyklus verlangsahmen.
 
 "F" für Vulkan-Erruption.
+
+#### Erstellt mit *Godot v3.2.3 Stable Official*
