@@ -9,6 +9,9 @@ https://drive.google.com/drive/folders/1e4s5fci1XtSpqDLN_vfkZPdgL16kd2Eg?usp=sha
 
 https://github.com/4bitFox/Besser/releases
 
+## Story
+https://github.com/4bitFox/Besser/blob/main/Documents/Story.txt
+
 ## Source Code
 https://github.com/4bitFox/Besser/tree/main/Source
 
