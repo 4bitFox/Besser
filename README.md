@@ -5,11 +5,7 @@ Berufsübergreifende Projekte
 (2020 3. LJ / 1. Sem.)
 
 ## Download
-https://drive.google.com/drive/folders/1e4s5fci1XtSpqDLN_vfkZPdgL16kd2Eg?usp=sharing
-
-https://github.com/4bitFox/Besser/releases
-
-Als ZIP herunterladen und extrahieren.
+[Zu den Downloads](https://github.com/4bitFox/Besser/blob/main/Documents/Download.md)
 
 ## Story
 https://github.com/4bitFox/Besser/blob/main/Documents/Story.md
@@ -48,4 +44,4 @@ Godot v3.2.3 Stable Official
 "F" für Vulkan-Erruption.
 
 ## Lizenz
-https://github.com/4bitFox/Besser/blob/main/LICENSE
+[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)
