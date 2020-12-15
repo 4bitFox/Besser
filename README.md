@@ -9,11 +9,9 @@ Berufsübergreifende Projekte
 
 *[Lizenz- und Nutzungsbedingungen](https://github.com/4bitFox/Besser/blob/main/LICENSE)*
 
-#### Handlung
-[Story](https://github.com/4bitFox/Besser/blob/main/Documents/Story.md)
+### [Story](https://github.com/4bitFox/Besser/blob/main/Documents/Story.md)
 
-#### Source Code
-[Source Code](https://github.com/4bitFox/Besser/tree/main/Source)
+### [Source Code](https://github.com/4bitFox/Besser/tree/main/Source)
 
 *Godot v3.2.3 Stable Official*
 
