@@ -46,3 +46,6 @@ Godot v3.2.3 Stable Official
 "Q" zum Tag-/Nachtzyklus verlangsahmen.
 
 "F" für Vulkan-Erruption.
+
+## Lizenz
+https://github.com/4bitFox/Besser/blob/main/LICENSE
