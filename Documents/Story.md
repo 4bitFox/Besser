@@ -26,4 +26,5 @@ Als du beim Vulkankrater anbekommst ist der Einsiedler schon da. Er fragt dich o
 Am Himmel stürzt ein kleines Flugzeug ins Meer ab und ein Pilot wird bewusstlos an den Strand gespült. Als du Ihn entdeckst Ziest du Ihn zu der Kleinen Hütte legst Ihn ins Bett. Als er aufwacht fragt er dich wo er ist und was er hier macht. Du erklärst Ihm das er einen Flugzeugabsturz hatte und du Ihn gerettet hast. Er jedoch nun mit dir auf der Insel fest Sitze. Anschliessend sagst du ich kann dir helfen von der Insel weg zu kommen, wenn du für mich auch ein gefallen erfüllst....
 
 ##Schwarzer screen und dann Titel:
+
 #Mehrbesser
