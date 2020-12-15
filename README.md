@@ -37,7 +37,7 @@ Godot v3.2.3 Stable Official
 
 "R" zum Szehne neu laden.
 
-"LCtrl" zum ultraschnell rennen.
+"Left Ctrl" zum ultraschnell rennen.
 
 "V" zum ultrahoch zu springen.
 
