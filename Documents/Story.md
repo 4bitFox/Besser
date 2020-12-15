@@ -22,6 +22,7 @@ Nachdem du gewonnen hast nimmst du Ihre Ohrringe ab und begibst dich möglichst 
 Als du beim Vulkankrater anbekommst ist der Einsiedler schon da. Er fragt dich ob du die Diamanten hast. Was du mit ja beantwortest. Du zeigst sie Ihm und und er wiederholt mehrmals wie schön sie sind. Plötzlich reisst er dir die Diamanten aus der Hand Und schubst dich den Krater hinab. Aber du hattest glück und bist nicht weit auf einem Felsvorsprung gelandet. Du kletterst aus dem Vulkan und springst den Einsiedler nach. Dieser befindet sich mittlerweile schon auf dem selbstgebauten floss und fährt langsam davon. Als du realisierst das es zu spät ist, um in einzuholen kommt dir eine Idee. Du gehst in die Hüte des Einsiedlers und kommst mit einer Leuchtpistole raus, mit welcher du danach auf das floss der Einsiedler schiesst. Du triffst das Floss und das Dürre Holz geht in Flammen auf.
 
 ##2 Jahre später….
+
 Am Himmel stürzt ein kleines Flugzeug ins Meer ab und ein Pilot wird bewusstlos an den Strand gespült. Als du Ihn entdeckst Ziest du Ihn zu der Kleinen Hütte legst Ihn ins Bett. Als er aufwacht fragt er dich wo er ist und was er hier macht. Du erklärst Ihm das er einen Flugzeugabsturz hatte und du Ihn gerettet hast. Er jedoch nun mit dir auf der Insel fest Sitze. Anschliessend sagst du ich kann dir helfen von der Insel weg zu kommen, wenn du für mich auch ein gefallen erfüllst....
 
 ##Schwarzer screen und dann Titel:
