@@ -18,7 +18,7 @@
 ### Debug Steuerung
 *    "F3" für Debug-Menu
 
-*    "R" zum Szehne neu laden.
+*    "R" zum Szene neu laden.
 
 *    "Left Ctrl" zum ultraschnell rennen.
 
